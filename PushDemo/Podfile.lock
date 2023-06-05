@@ -1,0 +1,20 @@
+PODS:
+  - PhotonPushSDK_NoDNS (1.1.6):
+    - PhotonPushSDK_NoDNS/MMFile (= 1.1.6)
+    - PhotonPushSDK_NoDNS/PUSH (= 1.1.6)
+  - PhotonPushSDK_NoDNS/MMFile (1.1.6)
+  - PhotonPushSDK_NoDNS/PUSH (1.1.6)
+
+DEPENDENCIES:
+  - PhotonPushSDK_NoDNS (from `PushSDK/`)
+
+EXTERNAL SOURCES:
+  PhotonPushSDK_NoDNS:
+    :path: PushSDK/
+
+SPEC CHECKSUMS:
+  PhotonPushSDK_NoDNS: d516aa9167e2d57d8ddcacf2ad2ea3184a3e43fa
+
+PODFILE CHECKSUM: 2431b5789d40c6f63ab97022aad24e9debcf8eb7
+
+COCOAPODS: 1.12.1

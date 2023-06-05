@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.wemomo.com/ios/Specs.git'
+source 'https://github.com/cosmos33/MMSpecs.git'
+
+platform :ios, '10.0'
+project 'PushDemo'
+target :PushDemo do
+    #使用外部MMFile
+#    pod 'PhotonPushSDK/PUSH',:path=>'PushSDK/'
+#    pod 'MMFile', '0.2.14', :source => 'https://git.wemomo.com/ios/Specs.git'
+
+    #使用默认MMFile
+    pod 'PhotonPushSDK_NoDNS',:path=>'PushSDK/'
+end

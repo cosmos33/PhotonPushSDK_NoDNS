@@ -1,0 +1,6 @@
+framework module pushsdk {
+  umbrella header "pushsdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
